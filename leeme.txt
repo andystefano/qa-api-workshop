@@ -1,0 +1,5 @@
+npm install
+npm start                 # API en :3000
+npm test                  # todas
+npm run test:unit         # solo unitarias
+npm run test:integration  # solo integración
