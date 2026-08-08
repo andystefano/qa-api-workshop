@@ -1,0 +1,27 @@
+{
+  "name": "qa-api-workshop",
+  "version": "1.0.0",
+  "description": "API REST de tareas para el curso PRO402 (Testing y Calidad de Software)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "test:unit": "jest --selectProjects unit",
+    "test:integration": "jest --selectProjects integration"
+  },
+  "keywords": [
+    "testing",
+    "jest",
+    "express",
+    "pro402",
+    "educacion"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
