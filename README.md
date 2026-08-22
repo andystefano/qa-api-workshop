@@ -131,3 +131,11 @@ Para ver las alertas en GitHub:
 3. Confirmar que en el repositorio estén activadas las opciones de **Code scanning** y **Secret scanning**.
 
 Los ejemplos están separados en la carpeta `examples/alertas/` para que se puedan borrar o reemplazar fácilmente cuando termine la clase.
+
+### Demo de Dependabot
+
+En [`examples/alertas/dependabot-demo/package.json`](examples/alertas/dependabot-demo/package.json) hay dependencias antiguas a propósito para que los alumnos vean cómo GitHub propone actualizaciones automáticas.
+
+### Demo de CodeQL en `server.js`
+
+El archivo [`src/server.js`](src/server.js) incluye un patrón inseguro aislado para que CodeQL genere una alerta de ejemplo sin romper el arranque de la API.
