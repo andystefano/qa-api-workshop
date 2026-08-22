@@ -4,7 +4,7 @@
   "private": true,
   "description": "Proyecto de ejemplo para enseñar alertas de Dependabot",
   "dependencies": {
-    "axios": "0.21.0",
+    "axios": "1.19.0",
     "lodash": "4.17.15",
     "minimist": "0.0.8"
   }
