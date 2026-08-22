@@ -114,3 +114,20 @@ ejemplos_casos_prueba.md
 ## Material de apoyo
 
 En [`ejemplos_casos_prueba.md`](ejemplos_casos_prueba.md) hay 5 casos de prueba en formato de tabla para usar como referencia al diseñar nuevos escenarios.
+
+## Guía de alertas de seguridad
+
+Este proyecto incluye ejemplos aislados para enseñar alertas de GitHub sin afectar la API principal:
+
+| Archivo | Alerta esperada | Qué aprende el alumno |
+|--------|------------------|------------------------|
+| [`examples/alertas/secret-demo.js`](examples/alertas/secret-demo.js) | Secret Protection / secret scanning | Detectar credenciales expuestas y entender por qué nunca deben subirse al repositorio |
+| [`examples/alertas/codeql-demo.js`](examples/alertas/codeql-demo.js) | CodeQL | Identificar una ejecución insegura de comandos y aprender a evitarla |
+
+Para ver las alertas en GitHub:
+
+1. Subir los cambios a una rama del repositorio.
+2. Abrir un pull request o revisar el análisis en la pestaña **Security**.
+3. Confirmar que en el repositorio estén activadas las opciones de **Code scanning** y **Secret scanning**.
+
+Los ejemplos están separados en la carpeta `examples/alertas/` para que se puedan borrar o reemplazar fácilmente cuando termine la clase.
