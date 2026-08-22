@@ -22,9 +22,6 @@ function ejecutarComandoDemo(comando) {
   return require('child_process').exec(comando);
 }
 
-if (TOKEN_DEMO.length > 0) {
-  ejecutarComandoDemo('echo demo');
-}
 
 if (CONEXION_BD_DEMO.connectionString.length > 0) {
   console.log('Conexion BD demo configurada');
