@@ -6,6 +6,6 @@
   "dependencies": {
     "axios": "0.21.0",
     "lodash": "4.17.15",
-    "minimist": "0.0.8"
+    "minimist": "1.2.8"
   }
 }
