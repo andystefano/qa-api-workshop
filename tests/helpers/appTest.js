@@ -1,16 +1,11 @@
 /**
- * Helper para pruebas de integración:
- * crea una app Express con un repositorio fresco.
- * Así cada test empieza sin datos residuales de otros tests.
+ * Helper para pruebas de integración: app Express lista para Supertest.
  */
 
 const { crearApp } = require('../../src/app');
-const { RepositorioTareas } = require('../../src/repositorio');
 
 function crearAppDePrueba() {
-  const repositorio = new RepositorioTareas();
-  const app = crearApp(repositorio);
-  return { app, repositorio };
+  return crearApp();
 }
 
 module.exports = { crearAppDePrueba };

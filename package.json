@@ -1,7 +1,7 @@
 {
   "name": "qa-api-workshop",
   "version": "1.0.0",
-  "description": "API REST de tareas para el curso PRO402 (Testing y Calidad de Software)",
+  "description": "API de cálculo de factura para el curso PRO402 (Testing y Calidad de Software)",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
